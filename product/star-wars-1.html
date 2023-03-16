@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | Producto</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a17eedded9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/banner.css">
+    <link rel="stylesheet" href="../styles/producto.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="header_info">
+            <a href="../index.html"><img class="header__logo" src="../img/logo.svg" alt="logo de alura geek"></a>
+            <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
+            <img class="header__lupa" src="../img/lupa.svg" alt="lupa">
+        </div>
+        <a class="header__boton" href="../pages/login.html">Login</a>
+        <img class="header__lupa-mobile" src="../img/lupa-mobile.svg" alt="lupa">
+    </header>
+
+    <main>
+
+        <section class="producto">
+
+            <img class="producto__image" src="../img/products/star-wars-1.png" alt="" class="producto__image">
+
+            <div class="producto__descripcion">
+
+                <h1 class="producto__tittle">Producto XYZ</h1>
+                <p class="product__price"> $ 60,00</p>
+                <p class="product__para">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+
+            </div>
+            
+
+        </section>
+
+        <section class="productos-similares">
+
+            <h2 class="productos-similares__tittle">Productos similares</h2>
+
+            <div class="products__grid-container">
+                    
+                <div class="products__grid-item">
+                    <img class="product__image" src="../img/products/products__inicio/star-wars-2.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./star-wars-2.html">Ver producto</a>
+                </div>
+
+                <div class="products__grid-item">
+                    <img class="product__image" src="../img/products/products__inicio/star-wars-3.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./star-wars-3.html">Ver producto</a>
+                </div>
+
+                <div class="products__grid-item">
+                    <img class="product__image" src="../img/products/products__inicio/star-wars-4.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./star-wars-4.html">Ver producto</a>
+                </div>
+
+                <div class="products__grid-item">
+                    <img class="product__image" src="../img/products/products__inicio/star-wars-5.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./star-wars-5.html">Ver producto</a>
+                </div>
+
+                <div class="products__grid-item grid-item__5">
+                    <img class="product__image" src="../img/products/products__inicio/consola-1.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./consola-1.html">Ver producto</a>
+                </div>
+
+                <div class="products__grid-item grid-item__6">
+                    <img class="product__image" src="../img/products/products__inicio/consola-2.png" alt="imagen de producto" draggable="false">
+                    <h4 class="product__title">Producto XYZ</h4>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__ver-producto" href="./consola-2.html">Ver producto</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <img class="footer__preguntas__icon--pc" src="../img/alura_geek_logo-2.svg" alt="Logo AluraGeek" draggable="false">
+
+        <section class="footer__preguntas">
+
+            <img class="footer__preguntas__icon" src="../img/alura_geek_logo-2.svg" alt="Logo AluraGeek" draggable="false">
+            <a href="./pages/error404.html" >Quienes somos</a>
+            <a href="./pages/error404.html" >Política de privacidad</a>
+            <a href="./pages/error404.html" >Programa de fidelidad</a>
+            <a href="./pages/error404.html" >Nuestras tiendas</a>
+            <a href="./pages/error404.html" >Quiero ser franquiciado</a>
+            <a href="./pages/error404.html" >Anúncie aquí</a>
+
+        </section>
+
+        <section class="footer__contact-form">
+
+            <form>
+                <h2>Hable con nosotros</h2>
+                <div id="inputNombre" class="contact__input__container">
+                    <label id="nombreLabel" class="contact__label" for="nombre">Nombre</label>
+                    <input id="nombre" class="contact__input__nombre" spellcheck="false" required type="text">
+                </div>
+
+                <div id="inputMensaje" class="contact__input__container contact__input__container__mensaje">
+                    <label id="mensajeLabel" class="contact__label" for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" class="contact__input__mensaje" cols="28" rows="5" spellcheck="false"
+                        required></textarea>
+                </div>
+
+                <div>
+                    <input class="contact__input__submit" type="submit" value="Enviar mensaje">
+                </div>
+            </form>
+
+        </section>
+
+    </footer>
+    <section class="footer__autor">
+
+        <p><span>Desarrollado por:</span> <a href="https://github.com/RigobertRG" target="_blank">Rigoberto Recinos</a> </p>
+
+    </section>
+    <script src="../scripts/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../scripts/busqueda.controller" type="module"></script>
+    <script src="../scripts/app.js" type="module"></script>
+    <script src="../scripts/buscador.controller.js" type="module"></script>
+</body>
+</html>

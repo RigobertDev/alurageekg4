@@ -1,0 +1,59 @@
+.ll{
+    display: none;
+}
+.login{
+    align-items: center;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 97px 0;
+}
+
+.login__form{
+    align-items: center;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.login h2{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 700; 
+    margin: 0;
+}
+
+.contact__input__email,
+.contact__input__password{
+    width: 270px;
+}
+
+.login__email, .login__sumbit{
+    margin: 16px 0;
+}
+
+.contact__input__email::placeholder,
+.contact__input__password::placeholder{
+    opacity: 0.6;
+}
+
+.contact__input__submit{
+    align-self: flex-end;
+}
+
+@media(min-width: 1000px) {
+
+    .login h2 {
+        font-size: 18px;
+    }
+
+    .contact__input__submit{
+        font-size: 18px;
+        height: 62px;
+        width: 328px;
+    }
+}
